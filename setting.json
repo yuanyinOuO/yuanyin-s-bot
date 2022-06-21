@@ -3,5 +3,18 @@
     "joinchannel": "981018005817421904",
     "removechannel": "981018774478151720",
     "hibot": "C:\\Users\\ACER\\OneDrive\\文件\\GitHub\\yuanyin-s-bot\\pic\\miku-1.png",
-    "give": ["C:\\Users\\ACER\\OneDrive\\文件\\GitHub\\yuanyin-s-bot\\pic\\miku-2.jpg" , "C:\\Users\\ACER\\OneDrive\\文件\\GitHub\\yuanyin-s-bot\\pic\\miku-3.gif"]
+    "give": ["C:\\Users\\ACER\\OneDrive\\文件\\GitHub\\yuanyin-s-bot\\pic\\miku-2.jpg" , "C:\\Users\\ACER\\OneDrive\\文件\\GitHub\\yuanyin-s-bot\\pic\\miku-3.gif"],
+    "coach": [
+        "https://svgdb.me/assets/fullart/9000410301.png",
+        "https://svgdb.me/assets/fullart/1240410101.png",
+        "https://svgdb.me/assets/cards/en/C_100011010.png",
+        "https://svgdb.me/assets/cards/en/C_104011030.png"
+    ],
+    "lucky": [
+        "大吉 , 運氣爆棚，還不快去抽卡！",
+        "吉 , 是個抽卡的好日子",
+        "普 , 普普通通的一天",
+        "兇 , 別抽了，就你這運氣，慘!",
+        "大凶 , 今天適合當非酋"
+    ]
 }

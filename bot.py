@@ -10,7 +10,7 @@ intents.members = True
 with open('setting.json' , mode='r' , encoding='utf8') as jfile:
     jdate = json.load(jfile)
 
-bot = commands.Bot(command_prefix=',' , intents = intents)
+bot = commands.Bot(command_prefix='' , intents = intents)
 
 @bot.event
 async def on_ready():
@@ -40,6 +40,16 @@ async def give(ctx):
     random_pic = random.choice(jdate['give'])
     give = discord.File(random_pic)
     await ctx.send(file= give)
+
+@bot.command()
+async def 神抽(ctx):
+    random_pic = random.choice(jdate['coach'])
+    await ctx.send(random_pic)
+
+@bot.command()
+async def 今日運勢(ctx):
+    random_pic = random.choice(jdate['lucky'])
+    await ctx.send(random_pic)
 
 bot.run(jdate['TOKEN'])
 
